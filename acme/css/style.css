@@ -1,0 +1,56 @@
+body {
+  padding-top: 30px;
+  color: gray;
+}
+
+.bottom-align-text {
+  padding-top:50px;
+}
+
+.anvil {
+  padding-top: 30px;
+}
+
+nav li{
+  margin-left:20px;
+  margin-right:20px;
+  display: inline;
+}
+
+nav li a {
+  color: gray;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+a:hover {
+  color: gray;
+}
+
+@media (min-width: 0px) and (max-width: 515px) {
+
+
+    .bottom-align-text {
+      padding:0;
+    }
+
+    ul {
+      padding:0;
+    }
+
+    nav li{
+     display: list-item;
+     list-style: none;
+    }
+
+    nav li a {
+      color: gray;
+      font-size: 25px;
+      font-weight: 800;
+    }
+
+    .anvil {
+      display: none;
+    }
+
+}
